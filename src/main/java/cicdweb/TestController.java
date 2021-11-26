@@ -8,7 +8,7 @@ public class TestController {
 
 	@GetMapping("/")
 	public String test() {
-		String str = "Hello CI/CD";
+		String str = "코드 수정했습니다.";
 		System.out.println(str);
 		return str;
 	}
